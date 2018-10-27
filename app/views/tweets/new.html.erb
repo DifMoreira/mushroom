@@ -1,0 +1,10 @@
+<h1><b> This is a new page </b></h1>
+<%=form_for @tweet do |form|%>
+<%=form.label :title%>
+<%=form.text_field :title%>
+<%=form.label :links%>
+<%=form.text_area :links%>
+<%=form.label :content%>
+<%=form.text_area :content%>
+<%=form.submit%>
+<%end%>
